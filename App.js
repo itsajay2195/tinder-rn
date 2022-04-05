@@ -9,7 +9,9 @@ import { AuthProvider } from './hooks/useAuth';
 export default function App() {
   return (
     <NavigationContainer>
-      <AuthProvider>
+     
+      <AuthProvider> 
+      
         <StackNavigator />
       </AuthProvider>
   
@@ -19,3 +21,7 @@ export default function App() {
 }
 
 
+// {/*HOC - Passes out the core auth stuff to the */}
+// {/*HOC - Children */}
+//  {/*HOC - Higher order component */}
+// {/*parent*/}
